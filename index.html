@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the Quiz App</h1>
+      <p>Test your knowledge with our quizzes!</p>
+    </header>
+    <main>
+      <section class="start" id="start">
+        <button class="start-btn" onclick="start()">Start Quiz</button>
+      </section>
+
+      <section class="game" id="game">
+        <div class="question">
+          <p id="question-text">Question will appear here</p>
+        </div>
+        <ul class="options-list" id="options-list">
+          <!-- <li class="option" >option</li><li class="option correct">option</li><li class="option incorrect">option</li><li class="option selected">option</li> -->
+        </ul>
+
+        <div class="controls">
+          <button class="confirm-btn" onclick="confirm()">
+            Confirm Answer
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
