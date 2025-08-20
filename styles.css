@@ -128,3 +128,11 @@ main {
 .confirm-btn:hover {
   background-color: #dddddd;
 }
+
+.next {
+  display: none;
+}
+
+#timer {
+  display: none;
+}
